@@ -7,8 +7,12 @@
     font-variation-settings: "wdth" 125;
   }
 
+.iconTitulo {
+    scale: 50%;
+}
+
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,8 +33,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
-
 
 nav ul {
     list-style-type: none;
@@ -61,6 +63,54 @@ section {
     padding: 20px;
     margin: 20px 0;
 }
+
+.servicos {
+    background-color: #041c41;
+    border-bottom: 10px solid #ff0000;
+}
+
+.servicosHeader {
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.servicosBody {
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicosCarro {
+    scale: 70%;
+}
+
+.servicosTexto-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.servicosTexto {
+    color: #b1d4e0;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.sans-serif-font-h2 {
+    color: #fff;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 30px;
+  }
 
 h2 {
     color: #041c41;
