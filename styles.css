@@ -11,6 +11,10 @@
     scale: 50%;
 }
 
+.semDecoracao {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -127,12 +131,41 @@ h2 {
     color: #041c41;
 }
 
+.inicio {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo_inicio {
+    margin: 0px;
+    font-style: italic;
+    font-size: 40px;
+    color: #041c41;
+}
+
+.texto_inicio {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.botao_inicio {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    text-decoration: double;
+}
+
 .depoimento {
     display: flex;
     flex-direction: row;
     border-bottom: 20px solid #041c41;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .depoimento-imagem {
