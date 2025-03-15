@@ -45,18 +45,33 @@
             <p class="texto_inicio">Nada pior do que pegar a estrada e perceber que o ar-
                 condicionado do seu carro não está funcionando direito,
                 né? Aqui, garantimos que você e sua família viajem
-                sempre com conforto, sem calor e sem preocupações!</p> 
+                sempre com conforto, sem calor e sem preocupações!</p>
 
             <img src="instalação e manutenção.jpg" alt="Instalação e manutenção realizada de forma segura">
         </div>
 
     </section>
 
-    <section id="sobre">
-        <h2>Sobre nós</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla incita. Vestibulum suctor, ligula at tender
-            pelimetrique, libero odio consequat erit. In volutpat odio nulla non sapien. Todo vitae feia eu sapien
-            displexa aliquet. Mauris sit ligula ut libero eleftrind posuere.</p>
+    <section id="sobre" class="sobreNosSection">
+        <img class="sobreNos-imagem" src="sobre-nos-foto.jpg" alt="Imagem ao lado do texto sbre nós">
+
+        <div class="sobreNosContent">
+            <div class="sobreNosHeader">
+                <h2 class="titulo_sobre-nos">Sobre nós</h2>
+
+                <img class="iconTitulo" src="sobre-nos-icon.jpg" alt="Sonre Nós">
+            </div>
+
+            <p class="texto_sobre-nos">Trabalhar com ar-condicionado automotivo foi uma escolha feita a quase oito
+                anos pelo proprietário Rodrigo Carlos, e, graças a Deus, hoje ele possui sua
+                própria empresa. Tudo começou com um conselho valioso do seu pai, que disse:
+                'Filho, hoje você deve trabalhar por conta própria, sem depender de ninguém'.
+                Foi um momento decisivo em sua vida. Graças à orientação dele e à fé em Deus,
+                conseguiu trilhar seu caminho com determinação. Hoje, possuí duas empresas, e
+                é muito grato pelo sucesso que conquistou até aqui. Sempre com perseverança e 
+                trabalho duro.</p>
+        </div>
+
     </section>
 
     <section id="servicos" class="servicos">
@@ -64,7 +79,6 @@
             <h2 class="sans-serif-font-h2-branco">Principais Serviços</h2>
 
             <img class="iconTitulo" src="Lupa.jpg" alt="Principais Serviços">
-
         </div>
 
         <div class="servicosBody">
@@ -78,33 +92,34 @@
                 <p class="servicosTexto">Troca de partilha rápida</p>
                 <p class="servicosTexto">Atendimento à domicílio</p>
             </div>
+
+            <img src="engrenagem.jpg" alt="Principais Serviços - engrenagem">
+
         </div>
 
     </section>
 
     <section id="depoimentos" class="depoimento">
-        <div >
+        <div>
             <h2 class="sans-serif-font-h2-azul">Depoimentos de clientes</h2>
 
             <div class="depoimento-card">
                 <img class="servicosCarro" src="cliente_icone.jpg" alt="Icone do depoimento">
 
-                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilita. Ventilatum susctor. Iguala
-                    id
-                    saucipit pellentesque. libero odio consequat orci. In volutpat odio nulla non sapien.”</p>
+                <p>“Muito profissionalismo e rapidez no serviço. Além disso, explicaram tudo o
+                    que estava sendo feito no meu carro. Voltarei sempre que precisar!”</p>
             </div>
 
             <div class="depoimento-card">
                 <img class="servicosCarro" src="cliente_icone.jpg" alt="Icone do depoimento">
 
-                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilita. Ventilatum susctor. Iguala
-                    id
-                    saucipit pellentesque. libero odio consequat orci. In volutpat odio nulla non sapien.”</p>
+                <p>“Fiz a manutenção completa do ar-condicionado do meu carro e o serviço ficou impecável.
+                    Atendimento honesto e preço justo. Nota 10!”</p>
             </div>
         </div>
 
 
-            <img class="depoimento-imagem" src="imagem_depoimento.jpg" alt="Imagem ao lado dos depoimentos">
+        <img class="depoimento-imagem" src="imagem_depoimento.jpg" alt="Imagem ao lado dos depoimentos">
     </section>
 
     <section id="galeria">
@@ -112,20 +127,30 @@
         <!-- Adicione imagens aqui -->
     </section>
 
-    <section id="contato">
-        <h2>Entre em contato conosco!</h2>
-        <p>Rua Polônia, 115. São Jorge, Belo Horizonte.</p>
-        <p>Telefones: (31) 98269-6446 | (31) 99604-5988</p>
-        <p>Email: shareondicionado@gmail.com</p>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
+    <section id="contato" class="contato">
+        <div class=".contato-form">
+            <p>Rua Polônia, 115. São Jorge, Belo Horizonte.</p>
+            <p>Telefones: (31) 98269-6446 | (31) 99604-5988</p>
+            <p>Email: shareondicionado@gmail.com</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+            <img class="contato-smartphone" src="contatos-e-endereços.jpg" alt="Imagem entre em contato">
+
+        <div class="contato-imagem-box">
+            <h2 class="sans-serif-font-h2-branco">Entre em contato conosco!</h2>
+
+            <img class="contato-smartphone" src="smartphone-entre-em-contato.jpg" alt="Imagem entre em contato">
+        </div>
+
     </section>
 
     <footer>

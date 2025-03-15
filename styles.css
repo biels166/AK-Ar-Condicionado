@@ -68,6 +68,46 @@ section {
     margin: 20px 0;
 }
 
+.texto_sobre-nos {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.titulo_sobre-nos {
+    color: #041c41;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0px;
+  }
+
+.sobreNos-imagem {
+    margin-right: 50px;
+}
+
+.sobreNosContent {
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobreNosHeader {
+    display: flex;   
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sobreNosSection {
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .servicos {
     background-color: #041c41;
     border-bottom: 10px solid #ff0000;
@@ -182,7 +222,31 @@ h2 {
     flex-direction: row;
 }
 
+.contato {
+    background-color: #041c41;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+}
 
+.contato-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-imagem-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-smartphone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 form {
     display: flex;
@@ -202,8 +266,8 @@ form input, form textarea {
 
 form button {
     padding: 10px;
-    background-color: #041c41;
-    color: #fff;
+    background-color: #fff;
+    color: #041c41;
     border: none;
     border-radius: 5px;
     cursor: pointer;
